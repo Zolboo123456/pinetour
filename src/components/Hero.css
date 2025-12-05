@@ -1,0 +1,30 @@
+.text {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  line-height: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.budeg {
+  font-family: "Bebas Neue";
+  font-weight: 400;
+  font-size: 80px;
+  opacity: 60%;
+}
+
+.tod {
+  font-weight: 400;
+  font-size: 250px;
+  margin: 60px;
+  padding: 20px;
+}
+
+.todJijig {
+  font-weight: 800;
+  font-size: 80px;
+}

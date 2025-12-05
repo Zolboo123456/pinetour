@@ -1,0 +1,24 @@
+.hesguudDiv {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hesguud {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 370px;
+  width: 275px;
+  border-radius: 40px;
+  overflow: hidden;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hesguud h3 {
+  font-size: 20px;
+  width: 200px;
+  text-align: center;
+  color: white;
+}
