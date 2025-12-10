@@ -1,12 +1,12 @@
 .footer {
   height: 204px;
-  background-color: rgba(159, 198, 222, 1);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-left: 100px;
   padding-right: 100px;
   gap: 30px;
+  background: rgba(159, 198, 222, 1);
 }
 
 .icon {
