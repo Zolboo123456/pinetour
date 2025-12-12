@@ -1,6 +1,8 @@
 .gradient {
+  padding-top: 100px;
   width: 100%;
-  background-image: url("../../public/img/footerImage.png");
+  max-height: 100vh;
+  background-image: url("../../public/img/footerDeed.png");
   background-size: cover;
   background-position: center;
   padding-bottom: 100px;
@@ -26,7 +28,7 @@
 
 .pricingContainer {
   width: 100%;
-  max-width: 1300px;
+  max-width: 1200px;
   display: flex;
   justify-content: center;
   gap: 40px;

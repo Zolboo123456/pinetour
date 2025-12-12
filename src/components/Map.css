@@ -8,15 +8,46 @@
   width: 100%;
 }
 
+.mapW {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .mapContainer {
   background-image: url("../../public/img/roadImage.png");
   background-size: 100%;
   height: 1022px;
-  width: 100vw;
+  width: 100%;
   margin: 0px;
   padding: 0px;
-}
 
+  display: block;
+  width: 100%;
+  height: auto;
+  /* ... your existing styles ... */
+  position: relative; /* Essential for masking/overlap */
+  overflow: visible; /* Allow the fade effect to extend beyond the container's height boundary */
+
+  /* --- Smoothing Magic: Start the fade --- */
+  /* This fades the background-image defined in .mapContainer CSS */
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 0%,
+    /* Opaque top */ rgba(0, 0, 0, 1) 90%,
+    /* Opaque until 90% down */ rgba(0, 0, 0, 0) 100%
+      /* Fully transparent at the bottom edge */
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 90%,
+    rgba(0, 0, 0, 0) 100%
+  );
+
+  /* Pull the bottom section up to overlap the faded area */
+  /* The value depends on how long you want the fade to be (e.g., 50px to 100px is a good start) */
+  margin-bottom: -80px;
+}
 .mapTitle {
   display: flex;
   flex-direction: column;

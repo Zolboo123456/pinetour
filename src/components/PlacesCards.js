@@ -1,17 +1,9 @@
-import Header from "./Header";
-import Hero from "./Hero";
 import Places from "./Places";
-import Map from "./Map";
-import Gradient from "./Gradient";
-import Footer from "./Footer";
+import "./PlacesCard.css";
 
-import "./Container.css";
-
-const Container = () => {
+const PlacesCard = () => {
   return (
-    <div className="container">
-      <Header />
-      <Hero />
+    <div className="cardSectionContainer">
       <div className="cardSection">
         <Places
           imagePath="/img/sec2Location1.png"
@@ -24,11 +16,8 @@ const Container = () => {
         <Places imagePath="/img/sec2Location3.png" title="Khusvgul Lake" />
         <Places imagePath="/img/sec2Location4.png" title="Khorgiin Togoo" />
       </div>
-      <Map />
-      <Gradient />
-      <Footer />
     </div>
   );
 };
 
-export default Container;
+export default PlacesCard;
