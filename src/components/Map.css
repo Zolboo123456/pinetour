@@ -46,7 +46,7 @@
 
   /* Pull the bottom section up to overlap the faded area */
   /* The value depends on how long you want the fade to be (e.g., 50px to 100px is a good start) */
-  margin-bottom: -80px;
+  margin-bottom: -100px;
 }
 .mapTitle {
   display: flex;
