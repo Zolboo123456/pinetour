@@ -1,6 +1,6 @@
 .nav {
   max-width: 1200px;
-  width: 100%;
+  width: 100vw;
   height: 100px;
   position: absolute;
   top: 0;
@@ -9,23 +9,27 @@
   justify-content: space-between;
   color: white;
   font-family: "Inter", sans-serif;
+  transition: 0.3s ease;
 }
 
 .logo {
   font-size: 28px;
   font-weight: 700;
   cursor: pointer;
+  transition: 0.3s ease;
 }
 
 .mainLogo {
   height: 34px;
   width: 100px;
+  transition: 0.3s ease;
 }
 
 .navbar {
   display: flex;
   font-size: 24px;
   gap: 70px;
+  transition: 0.3s ease;
 }
 
 .navbar p {
@@ -33,11 +37,13 @@
   font-weight: 500;
   cursor: pointer;
   transition: opacity 0.2s ease-in-out;
+  transition: 0.3s ease;
 }
 
 .language {
   text-align: center;
   margin-right: 50px;
+  transition: 0.3s ease;
 }
 
 .profile {
@@ -49,4 +55,27 @@
   font-weight: 500;
   font-size: 16px;
   text-align: center;
+  transition: 0.3s ease;
+}
+
+@media (max-width: 1200px) {
+  .navbar {
+    gap: 50px;
+  }
+
+  .navbar a {
+    font-size: 20px;
+    transition: 0.3s ease;
+  }
+
+  .navbar p {
+    font-size: 15px;
+    transition: 0.3s ease;
+  }
+}
+
+@media (max-width: 600px) {
+  .maingLogo {
+    padding-left: 40px;
+  }
 }

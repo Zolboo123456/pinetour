@@ -1,7 +1,7 @@
 .gradient {
   padding-top: 100px;
   width: 100%;
-  max-height: 100vh;
+  height: 100%;
   background-image: url("../../public/img/footerDeed.png");
   background-size: cover;
   background-position: center;
@@ -109,4 +109,14 @@
 
 .price {
   margin-top: 0px;
+}
+
+@media (max-width: 600px) {
+  .gradient {
+    height: 1900px;
+  }
+
+  .pricingContainer {
+    padding-bottom: 300px;
+  }
 }

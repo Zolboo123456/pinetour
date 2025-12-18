@@ -15,3 +15,13 @@
   background-image: url("../../public/img/locationBackground.png");
   background-color: aqua;
 }
+
+@media (max-width: 800px) {
+  .cardSection {
+    flex-direction: column;
+  }
+
+  .cardSectionContainer {
+    height: 1700px;
+  }
+}

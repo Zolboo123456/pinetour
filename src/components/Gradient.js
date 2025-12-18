@@ -8,7 +8,7 @@ const Gradient = () => {
       price: "500$",
       subtitle: "Essentials Covered",
       features: [
-        "Group transportation (shared van/bus)",
+        "Group transportation (shared van / bus)",
         "Standard accommodation (yurt or guesthouse)",
         "Guided lake tour",
         "1 meal per day (breakfast)",
