@@ -24,9 +24,11 @@
 
 .tod {
   font-weight: 400;
-  font-size: 250px;
+  font-size: 220px;
   margin: 60px;
   padding: 20px;
+  padding-right: 0px;
+  margin-right: 0px;
   transition: 0.3s ease;
 }
 
@@ -37,9 +39,20 @@
 }
 
 @media (max-width: 800px) {
+  .budeg {
+    font-size: 65px;
+  }
+
   .tod {
-    font-size: 150px;
+    font-size: 120px;
     transition: 0.3s ease;
+    padding-right: 0px;
+    margin-right: 0px;
+  }
+
+  .todJijig {
+    font-size: 65px;
+    font-weight: 650;
   }
 }
 
@@ -50,8 +63,10 @@
   }
 
   .tod {
-    font-size: 130px;
+    font-size: 110px;
     transition: 0.3s ease;
+    padding-right: 0px;
+    margin-right: 0px;
   }
 
   .todJijig {

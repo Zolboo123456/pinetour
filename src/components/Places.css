@@ -22,9 +22,3 @@
   text-align: center;
   color: white;
 }
-
-@media (max-width) {
-  .hesguudDiv {
-    max-width: 1200px;
-  }
-}

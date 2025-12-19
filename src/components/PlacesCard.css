@@ -4,7 +4,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
+  transition: 0.3s ease;
 }
 
 .cardSectionContainer {
@@ -14,14 +15,53 @@
   align-items: center;
   background-image: url("../../public/img/locationBackground.png");
   background-color: aqua;
+  transition: 0.3s ease;
+}
+
+.deed {
+  display: flex;
+  gap: 30px;
+  transition: 0.3s ease;
+}
+
+.dood {
+  display: flex;
+  gap: 30px;
+  transition: 0.3s ease;
+}
+
+@media (max-width: 1200px) {
+  .cardSection {
+    flex-direction: column;
+    transition: 0.3s ease;
+  }
+
+  .cardSectionContainer {
+    height: 800px;
+    transition: 0.3s ease;
+  }
 }
 
 @media (max-width: 800px) {
   .cardSection {
+    display: flex;
     flex-direction: column;
+    transition: 0.3s ease;
+  }
+
+  .deed {
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s ease;
+  }
+  .dood {
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s ease;
   }
 
   .cardSectionContainer {
     height: 1700px;
+    transition: 0.3s ease;
   }
 }
