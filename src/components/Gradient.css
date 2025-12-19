@@ -117,6 +117,7 @@
   }
 
   .pricingContainer {
-    padding-bottom: 300px;
+    padding-bottom: 200px;
+    margin-bottom: 0;
   }
 }

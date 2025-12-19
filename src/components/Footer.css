@@ -4,14 +4,15 @@
   display: flex;
   justify-content: center;
   background: rgba(159, 198, 222, 1);
+  margin: 0;
+  padding: 0;
   transition: 0.3s ease;
 }
 
 .footerContainer {
-  max-width: 1200px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   transition: 0.3s ease;
 }
@@ -69,6 +70,7 @@ ul {
 
 @media (max-width: 600px) {
   .footer {
+    padding-left: 20px;
     transition: 0.3s ease;
   }
 
@@ -89,7 +91,6 @@ ul {
   .bottomLogo {
     height: 22px;
     width: 70px;
-    padding-right: 30px;
     transition: 0.3s ease;
   }
 }
