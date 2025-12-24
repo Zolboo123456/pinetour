@@ -10,9 +10,6 @@
   color: white;
   font-family: "Inter", sans-serif;
   transition: 0.3s ease;
-
-  width: calc(100% - 40px);
-  padding: 0 20px;
 }
 
 .logo {
@@ -80,5 +77,11 @@
 @media (max-width: 600px) {
   .maingLogo {
     padding-left: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    display: none;
   }
 }

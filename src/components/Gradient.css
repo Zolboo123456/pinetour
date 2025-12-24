@@ -129,8 +129,7 @@
 
 @media (max-width: 600px) {
   .gradient {
-    height: 1900px;
-    transition: 0.3s ease;
+    height: auto;
   }
 
   .gradient h1 {
@@ -143,8 +142,13 @@
   }
 
   .pricingContainer {
-    padding-bottom: 200px;
     margin-bottom: 0;
     transition: 0.3s ease;
+  }
+}
+
+@media (max-width: 254px) {
+  .pricingContainer {
+    padding-bottom: 0px;
   }
 }
